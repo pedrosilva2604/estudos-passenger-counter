@@ -1,0 +1,77 @@
+body {
+    background-image: url("ambiente-metro-botafogo-rio-de-janeiro.jpg");
+    background-size: cover; /* Faz a imagem ocupar toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0; /* Corrige o margin para evitar deslocamentos */
+    padding: 0;
+    
+    /* Flexbox para centralizar */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.container {
+    background: white;
+    margin: auto;
+    max-width: 700px;
+    border: 3px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 1cm;
+    flex-wrap: wrap;
+    background-image: url("2804 Estação de Trem Firenze Santa Maria Novella - Painel de Partidas 29mai2015.JPG");
+    background-size: cover; /* Mantém a proporção da imagem */
+    background-position: 50% 10%; /* Ajusta o foco nos letreiros */
+    background-repeat: no-repeat; /* Garante que a imagem não será repetida */
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+button {
+    border: solid 2px #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-weight: 500;
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+}
+
+#increment-btn {
+    background-color: rgb(139, 0, 0);
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
+
+#save-el {
+    font-weight: bold;
+}
